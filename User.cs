@@ -9,8 +9,5 @@ public class User
 
     public static string Seed = "ei723jhrkdyf983";
 
-    public void Print()
-    {
-        Console.WriteLine($"ID: {Id}, {Name} ({Email})");
-    }
+    public void Print() => Console.WriteLine($"ID: {Id}, {Name} ({Email})");
 }
