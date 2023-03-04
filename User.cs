@@ -2,19 +2,16 @@
 public class User
 {
     private string id;
-    public string GetId()
+    public string Id
     {
-        return id;
+        get { return id; }
     }
 
     private string name;
-    public string GetName()
+    public string Name
     {
-        return name;
-    }
-    public void SetName(string v)
-    {
-        name = v;
+        get { return name; }
+        set { name = value; }
     }
 
     private string email;
