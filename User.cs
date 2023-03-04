@@ -1,19 +1,9 @@
 ﻿namespace CSTypes;
+
 public class User
 {
-    private string id;
-    public string Id
-    {
-        get { return id; }
-    }
-
-    private string name;
-    public string Name
-    {
-        get { return name; }
-        set { name = value; }
-    }
-
-    private string email;
-    private string password;
+    public string Id { get; }
+    public string Name { get; set; }
+    public string Email { get; set; }
+    public string Password { get; set; }
 }
