@@ -1,5 +1,7 @@
-﻿
-using CSTypes;
+﻿using CSTypes;
+
+Console.WriteLine(User.Seed);
+
 
 var u1 = new User();
 User u2;

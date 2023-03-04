@@ -7,6 +7,8 @@ public class User
     public string Email { get; set; }
     public string Password { get; set; }
 
+    public static string Seed = "ei723jhrkdyf983";
+
     public void Print()
     {
         Console.WriteLine($"ID: {Id}, {Name} ({Email})");
