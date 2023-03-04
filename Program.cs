@@ -12,3 +12,7 @@ User u2;
 
 u1.Name = "Ahmad";
 Console.WriteLine(u1.Name);
+
+u1.Email = "ahmad@example.com";
+
+u1.Print();
